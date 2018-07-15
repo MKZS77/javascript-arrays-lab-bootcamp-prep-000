@@ -24,7 +24,10 @@ function appendKitten(name) {
   return name;
 }
 
-function 
+function removeLastKitten() {
+  kittens.splice(2,1, "Otis");
+  return kittens;
+}
 
 
 
