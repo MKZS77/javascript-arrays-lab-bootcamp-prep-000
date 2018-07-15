@@ -24,6 +24,11 @@ function appendKitten(name) {
   return name;
 }
 
+function prependKitten(name) {
+  name = ["Arnold",...kittens];
+  return name;
+}
+
 function removeLastKitten() {
   kittens.splice(2,1, "Otis");
   return kittens;
